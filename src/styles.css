@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 12;
+}
+
+.grid-item {
+  height: 300px; 
+  padding: 12px;
+}
+
+.fill-parent {
+  height: 100%; 
+  width: 100%;
+}
+
+.children-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img {
+  object-fit: contain;
+}
+
+.img-container {
+  background-color: rgb(240, 245, 250)
+}
